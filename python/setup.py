@@ -68,7 +68,7 @@ setup(
     name="ctranslate2",
     version=_get_project_version(),
     license="MIT",
-    description="Fast inference engine for Transformer models",
+    description="Fast inference engine for Transformer models - (ROCm version)",
     long_description=_get_long_description(),
     long_description_content_type="text/markdown",
     author="OpenNMT",

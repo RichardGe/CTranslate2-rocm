@@ -23,6 +23,9 @@ namespace ctranslate2 {
     }
 
     void WhisperModel::initialize(ModelReader& model_reader) {
+
+      printf("CT2-ROCM -  WhisperModel::initialize START...\n");
+
       VocabularyInfo vocab_info;
       vocab_info.unk_token = "<|endoftext|>";
       vocab_info.bos_token = "<|startoftranscript|>";
