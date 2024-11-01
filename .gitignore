@@ -10,3 +10,6 @@ python/dist/
 .cache
 docs/build/
 docs/python/
+
+build_debug/
+build_release/
